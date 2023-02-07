@@ -5,8 +5,8 @@ const ProductCard = ({products}) => {
     const {img, price, title, rating: ratings} = products;
   return (
     <div>
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure className=' m-5 bg-slate-600'>
+      <div className="card w-96 bg-base-100 shadow-xl border border-inherit ">
+        <figure className=' mx-4 mt-4 bg-slate-200 rounded '>
           <img 
           className="object-scale-down h-48 w-96 py-4"
             src={img}
