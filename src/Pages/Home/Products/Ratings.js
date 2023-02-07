@@ -20,7 +20,6 @@ const Ratings = ({ratings}) => {
     return (
             <div className="icon">
                 {ratingsStar}
-                <p></p>
             </div>
     );
 };
