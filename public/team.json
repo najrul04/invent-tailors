@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1",
+    "name": "MD Moean Uddin",
+    "title": "CEO",
+    "img": "https://i.ibb.co/QpZhx1L/1.png"
+  },
+  {
+    "_id": "2",
+    "name": "Monir Hossain",
+    "title": "Cutting Master",
+    "img": "https://i.ibb.co/QpZhx1L/1.png"
+  },
+  {
+    "_id": "3",
+    "name": "Roton",
+    "title": "Material Worker",
+    "img": "https://i.ibb.co/QpZhx1L/1.png"
+  },
+  {
+    "_id": "4",
+    "name": "Sumon",
+    "title": "Developer",
+    "img": "https://i.ibb.co/QpZhx1L/1.png"
+  }
+]
