@@ -5,8 +5,8 @@ import Banner from '../Banner/Banner';
 import Products from '../Products/Products';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
-import Testimonial from '../Testimonial/Testimonial';
 // import Team1 from '../Team1/Team1';
+import Testimonial from '../Testimonial/Testimonial';
 // import Team2 from '../Team2/Team2';
 import WhyUs from '../WhyUs/WhyUs';
 
