@@ -4,6 +4,7 @@ import img4 from '../../../assets/images/banner/1.jpg';
 import img2 from "../../../assets/images/team/2.jpg";
 import img3 from "../../../assets/images/team/3.jpg";
 import img1 from "../../../assets/images/testimonial/2.jpg";
+import '../Products/Ratings.css';
 import './Testimonial.css';
 
 // import Swiper core and required modules
@@ -14,6 +15,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import Ratings from '../Products/Ratings';
 
 const data = [
 
@@ -21,7 +23,9 @@ const data = [
 
       avatar: img1,
       name: 'Christian Bale',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae1111111111111111.'
+      title: 'CEO',
+      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
+      "rating": "4.3",
 
   },
 
@@ -29,7 +33,9 @@ const data = [
 
       avatar: img2,
       name: 'Christian Bale',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.'
+      title: 'CEO',
+      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
+      "rating": "4.3",
 
   },
 
@@ -37,7 +43,9 @@ const data = [
 
       avatar: img3,
       name: 'Christian Bale',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae33333333333333333333.'
+      title: 'CEO',
+      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
+      "rating": "4.3",
 
   },
 
@@ -45,7 +53,9 @@ const data = [
 
       avatar: img4,
       name: 'Christian Bale',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae444444444444.'
+      title: 'CEO',
+      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
+      "rating": "4.3",
 
   },
 
@@ -65,7 +75,7 @@ const Testimonial = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
     </div>
 
-    <Swiper className="container testimonials_container" // install Swiper modules
+    <Swiper // install Swiper modules
       modules={[Navigation]}
       spaceBetween={40}
       slidesPerView={2}
@@ -75,11 +85,11 @@ const Testimonial = () => {
 
       {
 
-          data.map(({avatar, name, review}, index) => {
+          data.map(({avatar, name, title, review, rating: ratings}, index) => {
 
             return(
 
-              <SwiperSlide key={index} >
+              <SwiperSlide className='py-5' key={index} >
 
 <div className='border p-12'>
 
@@ -93,10 +103,10 @@ const Testimonial = () => {
   <div className="text-center sm:text-left">
     <div>
       <p className="text-lg text-black font-semibold">
-        Erin Lindford
+        {name}
       </p>
       <p className="text-slate-500 font-medium">
-        Product Engineer
+        {title}
       </p>
     </div>
    
@@ -109,7 +119,12 @@ const Testimonial = () => {
 
 
 <div className='mt-4 text-left'>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat non voluptatem soluta. Cumque dolor adipisci amet totam. Quis, quisquam earum! Tempore laudantium perspiciatis natus corporis officia reiciendis deleniti nihil est voluptatum omnis ea, praesentium porro vitae, rem ullam sit atque laborum asperiores labore! Natus nulla doloribus cumque amet, eos optio voluptatem fuga quas animi cupiditate iste laborum culpa voluptate explicabo!</p>
+<p>
+    {review}
+</p>
+</div>\
+<div className="pt-0.1">
+<Ratings ratings = {ratings} />
 </div>
 </div>
 
