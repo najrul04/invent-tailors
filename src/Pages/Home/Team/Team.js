@@ -30,8 +30,8 @@ const Team = () => {
         className="mySwiper"
       >
         <SwiperSlide className="grid grid-rows gap-2 my-10">
-            <div className="border p-6 rounded-lg w-full">
-                <img className=" rounded-lg" src={img1} alt="" />
+            <div className="border  p-6 rounded-lg w-full">
+                <img className="swiper_image rounded-lg" src={img1} alt="" />
                 <div className="pt-6">
                     <h1 className="mt-2 font-bold">Car Engine Plug</h1>
                     <h3 className="my-2">Engine Expert</h3>
