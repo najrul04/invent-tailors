@@ -49,7 +49,7 @@ const bannerData = [
 
 const Banner = () => {
     return (
-<div className="carousel rounded-box py-8">
+<div className="carousel rounded-box py-8 h-4/5">
 
   {
     bannerData.map(slide => <BannerItem
