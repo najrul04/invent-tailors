@@ -31,7 +31,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button className="btn btn-outline bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white">Appointment</button>
+  <button className="btn btn-outline bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white ">Appointment</button>
   </div>
 </div>
     );
