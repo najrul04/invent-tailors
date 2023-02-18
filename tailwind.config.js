@@ -4,7 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    screens: {
+   /*  screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -19,7 +19,7 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-    },
+    }, */
     extend: {},
   },
   plugins: [require("daisyui")],

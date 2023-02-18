@@ -3,7 +3,7 @@ import logo from '../../../assets/invent.jpg';
 
 const Footer = () => {
     return (
-        <footer className="footer p-32  rounded-lg bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white">
+        <footer className="footer p-32 rounded-lg bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white">
   <div>
     <img src={logo} alt="" />
     <p>Invent Tailors and Fabrics<br/>Providing reliable tech since 1992</p>

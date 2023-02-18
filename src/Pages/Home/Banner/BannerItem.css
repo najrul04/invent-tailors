@@ -1,3 +1,6 @@
+.carousel_img {
+  height: 80%;
+}
 .carousel_img:after {
   content: "";
   position: absolute;
