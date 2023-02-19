@@ -4,9 +4,9 @@ import { MdLocationPin } from 'react-icons/md';
 import { SlCalender } from 'react-icons/sl';
 const Address = () => {
   return (
-    <div className="flex justify-center my-8">
+    <div className="flex justify-center my-8 max-sm:hidden md:block xl:block">
         
-        <div className="card w-4/5 bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white shadow-xl">
+        <div className="card w-4/5 md:w-full bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white shadow-xl">
       <div className="card-body grid grid-cols-3 gap-4 content-center">
         <div className="flex items-center">
         <SlCalender className="mx-4" size='2rem'/>
