@@ -4,7 +4,7 @@ const ServiceCard = ({service}) => {
     const {img, price, title} = service;
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl border border-inherit ">
+      <div className="card w-full bg-base-100 shadow-xl border border-inherit ">
         <figure className=" rounded ">
           <img
           className="h-56 w-96 px-4 pt-4 rounded-3xl"
