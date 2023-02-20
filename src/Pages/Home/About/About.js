@@ -3,7 +3,7 @@ import parts from "../../../assets/images/about_us/parts.jpg";
 import person from "../../../assets/images/about_us/person.jpg";
 const About = () => {
     return (
-        <div>
+        <div className=' pt-10'>
         <p className="text-2xl font-bold text-center text-orange-600 max-sm:block md:hidden xl:hidden">About Us</p>
             <div className="hero mb-20">
               
