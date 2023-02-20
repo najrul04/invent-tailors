@@ -5,7 +5,7 @@ import { SlCalender } from 'react-icons/sl';
 const Address = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="grid grid-rows-3 content-center mt-10 w-4/5 max-sm:hidden md:block xl:block">
+      <div className="grid grid-rows-3 content-center mt-10 w-4/5 md:w-full max-sm:hidden md:block xl:block">
         
         <div className="card w-4/5 md:w-full bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white shadow-xl">
       <div className="card-body grid grid-cols-3 gap-1 content-center">

@@ -68,11 +68,11 @@ const data = [
 ]
 const Testimonial = () => {
     return (
-        <div>
+        <div className='pt-10'>
         <div className='text-center mb-4'>
-        <p className="text-2xl font-bold text-orange-600 py-3">Testimonial</p>
-        <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pb-2">What Customer Says</h2>
-        <p className='max-sm:text-sm '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
+        <p className="text-2xl font-bold text-orange-600">Testimonial</p>
+        <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">What Customer Says</h2>
+        <p className='max-sm:text-sm pt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
     </div>
 
     <Swiper // install Swiper modules
