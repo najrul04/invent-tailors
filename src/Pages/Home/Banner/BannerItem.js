@@ -8,7 +8,7 @@ const BannerItem = ({slide}) => {
    <div className='carousel_img'>
    <img src={image} alt='banner' className="w-screen rounded-xl" />
    </div>
-    <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2 max-sm:hidden md:block xl:block ">
+    <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2 max-sm:hidden md:block xl:block">
       <p className='lg:text-2xl md:text-lg sm:text-xs text-white' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia vel optio assumenda dolor libero in excepturi, quod suscipit voluptate inventore?</p>
     </div>
     <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-24 top-2/3 md:mt-4">

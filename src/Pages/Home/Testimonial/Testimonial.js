@@ -71,8 +71,8 @@ const Testimonial = () => {
         <div>
         <div className='text-center mb-4'>
         <p className="text-2xl font-bold text-orange-600 py-3">Testimonial</p>
-        <h2 className="text-5xl font-semibold py-3">What Customer Says</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
+        <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pb-2">What Customer Says</h2>
+        <p className='max-sm:text-sm '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
     </div>
 
     <Swiper // install Swiper modules
@@ -81,7 +81,19 @@ const Testimonial = () => {
       slidesPerView={2}
       navigation
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}>
+      onSlideChange={() => console.log('slide change')}
+      breakpoints={{
+        0:{
+            slidesPerView:1
+        },
+        520:{
+            slidesPerView:2
+        },
+        950:{
+            slidesPerView:3
+        }
+    }}
+    >
 
       {
 

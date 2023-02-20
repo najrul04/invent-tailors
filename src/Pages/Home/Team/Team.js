@@ -19,8 +19,8 @@ const Team = () => {
     <div>
     <div className='text-center mb-4'>
                <p className="text-2xl font-bold text-orange-600 py-3">Team</p>
-               <h2 className="text-5xl font-semibold py-3">Our Team Members</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
+               <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold py-3">Our Team Members</h2>
+               <p className="max-sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
            </div>
       <Swiper
         slidesPerView={3}
@@ -28,6 +28,17 @@ const Team = () => {
         navigation={true}
         modules={[Navigation]}
         className="mySwiper"
+        breakpoints={{
+            0:{
+                slidesPerView:1
+            },
+            520:{
+                slidesPerView:2
+            },
+            950:{
+                slidesPerView:3
+            }
+        }}
       >
         <SwiperSlide className="grid grid-rows gap-2 my-10">
             <div className="border  p-6 rounded-lg w-full">
