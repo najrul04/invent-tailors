@@ -24,9 +24,9 @@ const BannerItem = ({slide}) => {
       </h1>
     </div>
     {/* <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0"> */}
-    <div  className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 max-sm:hidden  ">
-      <a href={`#slide${prev}`} className="btn btn-circle mr-5">❮</a> 
-      <a href={`#slide${next}`} className="btn btn-circle">❯</a>
+    <div  className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2  ">
+      <a href={`#slide${prev}`} className="btn btn-circle mr-5 max-sm:bg-transparent border-0 h-0 w-0 ">❮</a> 
+      <a href={`#slide${next}`} className="btn btn-circle max-sm:bg-transparent border-0 h-0 w-0">❯</a>
     </div>
   </div> 
     );
