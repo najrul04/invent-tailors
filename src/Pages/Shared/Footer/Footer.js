@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
     <div className='grid grid-cols-1 content-center justify-items-center text-center'>
     <img className='cursor-pointer' src={logo} alt="" />
-    <p className='pt-3'>Invent Tailors and Fabrics<br/>Providing reliable tech since 1992</p>
+    <p className='pt-3'>Invent Tailors and Fabrics<br/>Providing reliable service since 1992</p>
   </div> 
 
         <div>
