@@ -1,10 +1,16 @@
 import React from 'react';
+import logo from '../../../assets/invent.jpg';
 
 const Footer = () => {
     return (
        
 <footer className="bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content rounded-t-lg ">
     <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
+    <div className='grid grid-cols-1 content-center justify-items-center text-center'>
+    <img className='cursor-pointer' src={logo} alt="" />
+    <p className='pt-3'>Invent Tailors and Fabrics<br/>Providing reliable tech since 1992</p>
+  </div> 
+
         <div>
             <h2 className="mb-6 text-sm font-semibold text-white uppercase">Company</h2>
             <ul className="text-white">
@@ -22,6 +28,7 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
+
         <div>
             <h2 className="mb-6 text-sm font-semibold text-white uppercase text-white">Help center</h2>
             <ul className="text-white">
@@ -39,6 +46,7 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
+
         <div>
             <h2 className="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
             <ul className="text-white">
@@ -50,23 +58,6 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h2 className="mb-6 text-sm font-semibold text-white uppercase">Download</h2>
-            <ul className="text-white">
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">iOS</a>
-                </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Android</a>
-                </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Windows</a>
-                </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">MacOS</a>
                 </li>
             </ul>
         </div>
