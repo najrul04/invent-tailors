@@ -41,8 +41,8 @@ const Team = () => {
         }}
       >
         <SwiperSlide className="grid grid-rows gap-2 my-10">
-            <div className="border  p-6 rounded-lg w-full">
-                <img className="swiper_image rounded-lg" src={img1} alt="" />
+            <div className="bg-base-100 shadow-xl border border-inherit p-6 rounded-lg w-full">
+                <img className="swiper_image rounded-lg " src={img1} alt="" />
                 <div className="pt-6">
                     <h1 className="mt-2 font-bold">Car Engine Plug</h1>
                     <h3 className="my-2">Engine Expert</h3>
@@ -53,7 +53,7 @@ const Team = () => {
 
 
         <SwiperSlide className="grid grid-rows gap-2 my-10">
-            <div className="border p-6 rounded-lg w-full">
+            <div className="bg-base-100 shadow-xl border border-inherit p-6 rounded-lg w-full">
                 <img className=" rounded-lg" src={img2} alt="" />
                 <div className="pt-6">
                     <h1 className="mt-2 font-bold">Car Engine Plug</h1>
@@ -64,7 +64,7 @@ const Team = () => {
         </SwiperSlide>
 
         <SwiperSlide className="grid grid-rows gap-2 my-10">
-            <div className="border p-6 rounded-lg w-full">
+            <div className="bg-base-100 shadow-xl border border-inherit p-6 rounded-lg w-full">
                 <img className=" rounded-lg" src={img3} alt="" />
                 <div className="pt-6">
                     <h1 className="mt-2 font-bold">Car Engine Plug</h1>

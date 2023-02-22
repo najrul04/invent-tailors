@@ -103,7 +103,7 @@ const Testimonial = () => {
 
               <SwiperSlide className='py-5' key={index} >
 
-<div className='border p-12'>
+<div className='bg-base-100 shadow-xl border border-inherit p-12'>
 
 
 <div>

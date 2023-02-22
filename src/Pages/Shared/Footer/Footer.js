@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
     </div>
     <div className="px-4 py-6 bg-gray-100 dark:bg-gray-500 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© {new Date().getFullYear()} <a href="https://flowbite.com/">Invent Tailors and Fabrics</a>. All Rights Reserved.
+        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© {new Date().getFullYear()} <a href="/">Invent Tailors and Fabrics</a>. All Rights Reserved.
         </span>
         {/* ™ */}
         <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
