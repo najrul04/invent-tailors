@@ -17,9 +17,16 @@ const About = () => {
       <h1 className="my-5 lg:text-5xl md:text-4xl font-bold max-sm:hidden md:block xl:block ">
         We are qualified <br /> 
         and experienced <br />
-        in this field</h1>
-      <p className="py-3 max-sm:mt-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati nisi ea eveniet, qui eius neque in voluptatem voluptas architecto, possimus dicta ipsum animi necessitatibus sint incidunt ex assumenda explicabo at autem inventore quaerat hic, similique vel! Itaque, aliquid fugiat hic qui earum similique quibusdam. Voluptates placeat ea, suscipit consequatur deserunt at, quasi porro perspiciatis, iste quos asperiores laudantium delectus.</p>
-      <p className="py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur illum qui, architecto beatae consectetur fuga quia dolorum error vero molestiae!</p>
+        in this field since 1992</h1>
+        <p className="py-3 max-sm:mt-16">
+        <span className='uppercase font-bold text-2xl'>Welcome!</span> to Invent Tailors and Fabrics, where we strive to provide exceptional products and services to our customers.
+        </p>
+        <p className="py-3">
+        At Invent Tailors and Fabrics, we are dedicated to delivering innovative solutions that meet the evolving needs of our clients. Our team is comprised of highly skilled professionals who bring a wealth of expertise and knowledge to each orders.
+        </p>
+        <p className="py-3 font-semibold">
+        Customer satisfaction is our most prioritized goal.
+        </p>
       <button className="btn bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white border-0">Get more info</button>
     </div>
   </div>
