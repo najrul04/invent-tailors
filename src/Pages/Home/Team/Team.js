@@ -15,6 +15,7 @@ import "./Team.css";
 import { Navigation } from "swiper";
 
 const Team = () => {
+    
   return (
     <div>
     <div className='text-center pt-10'>
@@ -22,7 +23,8 @@ const Team = () => {
                <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">Our Team Members</h2>
                <p className="max-sm:text-sm pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
            </div>
-      <Swiper
+    <div>
+    <Swiper
         slidesPerView={3}
         spaceBetween={30}
         navigation={true}
@@ -80,6 +82,7 @@ const Team = () => {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
+    </div>
     </div>
   );
 };

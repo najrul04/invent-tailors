@@ -3,36 +3,42 @@
     "_id": "1",
     "name": "MD Moean Uddin",
     "title": "CEO",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
+    "experience": "35 Years",
+    "img": "https://i.ibb.co/5B2xY83/4.png"
   },
   {
     "_id": "2",
     "name": "Monir Hossain",
     "title": "Cutting Master",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
+    "experience": "5 Years",
+    "img": "https://i.ibb.co/6bWgdnd/7.png"
   },
   {
     "_id": "3",
     "name": "Roton",
-    "title": "Material Worker",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
+    "title": "Sales Man",
+    "experience": "5 Years",
+    "img": "https://i.ibb.co/qRMPGLt/6.png"
   },
   {
     "_id": "4",
-    "name": "Sumon",
-    "title": "Developer",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
+    "name": "Shahajalal",
+    "title": "Manager",
+    "experience": "5 Years",
+    "img": "https://i.ibb.co/S05HdGx/5.png"
   },
   {
     "_id": "5",
     "name": "Sumon",
     "title": "Developer",
+    "experience": "5 Years",
     "img": "https://i.ibb.co/QpZhx1L/1.png"
   },
   {
     "_id": "6",
     "name": "Sumon",
     "title": "Developer",
+    "experience": "5 Years",
     "img": "https://i.ibb.co/QpZhx1L/1.png"
   }
 ]

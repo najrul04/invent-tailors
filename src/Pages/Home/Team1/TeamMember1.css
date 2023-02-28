@@ -13,3 +13,9 @@
   justify-content: center;
   align-items: center;
 }
+.swiper-slide.swiper_image {
+  display: block;
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+}

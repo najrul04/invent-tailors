@@ -1,33 +1,18 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import required modules
-import { Pagination } from "swiper";
-
-const TeamMember1 = ({team1}) => {
-    const {name, title, img} = team1;
+const TeamMember1 = ({team}) => {
+    const {name, title, img, experience} = team;
     return (
-      <Swiper
-      slidesPerView={1} 
-        spaceBetween={20}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-    >
-        <SwiperSlide className='border mx-10'>
-        <div>
-        <img src={img} alt="Burger" />
-        <h3>{title}</h3>
-        <p>{name}</p>
-      </div> 
-        </SwiperSlide>
-      </Swiper>
+  
+        
+       <div className="bg-base-100 shadow-xl border border-inherit p-6 rounded-lg w-full">
+       <img className="swiper_image rounded-lg" src={img} alt="" />
+       <div className="pt-6">
+           <h1 className="mt-2 font-bold">{name}</h1>
+           <h3 className="my-2">{title}</h3>
+           <span>Experience: {experience}</span>
+       </div>
+   </div>
     );
 };
 
