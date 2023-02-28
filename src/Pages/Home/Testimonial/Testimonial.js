@@ -1,7 +1,7 @@
 import React from 'react';
 import svg from '../../../assets/icons/quote.svg';
-import img4 from '../../../assets/images/banner/1.jpg';
-import img2 from "../../../assets/images/team/2.jpg";
+import img4 from '../../../assets/images/banner/1.png';
+// import img2 from "../../../assets/images/team/2.PNG";
 import img3 from "../../../assets/images/team/3.jpg";
 import img1 from "../../../assets/images/testimonial/2.jpg";
 import '../Products/Ratings.css';
@@ -31,7 +31,7 @@ const data = [
 
   {
 
-      avatar: img2,
+      avatar: img1,
       name: 'Christian Bale',
       title: 'CEO',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',

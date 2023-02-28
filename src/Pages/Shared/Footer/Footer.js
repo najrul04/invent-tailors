@@ -4,7 +4,7 @@ import logo from '../../../assets/invent.jpg';
 const Footer = () => {
     return (
        
-<footer className="bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content rounded-t-lg ">
+<footer className="bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content rounded-t-lg mt-20">
     <div className="grid grid-cols-2 gap-8 px-6 py-8 content-center justify-items-center md:grid-cols-4">
     <div className='grid grid-cols-1 content-center justify-items-center text-center'>
     <img className='cursor-pointer' src={logo} alt="" />

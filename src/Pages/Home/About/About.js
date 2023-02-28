@@ -1,6 +1,6 @@
 import React from 'react';
-import parts from "../../../assets/images/about_us/parts.jpg";
-import person from "../../../assets/images/about_us/person.jpg";
+import parts from "../../../assets/images/about_us/parts.png";
+import person from "../../../assets/images/about_us/person.png";
 const About = () => {
     return (
         <div className=' pt-10'>
