@@ -14,7 +14,7 @@ const BannerItem = ({slide}) => {
         </p>
     </div>
     <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-24 max-sm:left-8 top-2/3 max-sm:top-4/5 md:mt-4">
-    <button className="btn bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white mr-5 border-0 max-sm:text-xs ">Discover More</button>
+    <button className="">Discover More</button>
     <button className="btn btn-outline bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white mr-5 border-0 max-sm:text-xs">Latest Project</button>
     </div>
     <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4 max-sm:top-1/4  max-sm:left-8">
