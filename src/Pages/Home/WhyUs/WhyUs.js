@@ -30,7 +30,7 @@ const whyUsData = [
     {
         image: img5,
         id: 5,
-        title: '100% Guranty'
+        title: '100% Guaranty'
     },
     {
         image: img6,
