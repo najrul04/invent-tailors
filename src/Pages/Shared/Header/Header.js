@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/invent.jpg';
+import logo from '../../../assets/invent.png';
 
 
 const Header = () => {
@@ -23,7 +23,7 @@ const Header = () => {
       </ul>
     </div>
     <Link to='/' className="btn btn-ghost normal-case text-xl">
-        <img className='h-12' src={logo} alt="" />
+        <img className='h-12' src={logo} alt="logo" />
     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -32,7 +32,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button>Appointment</button>
+  <button className='btn btn-outline bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white mr-5 border-0 max-sm:text-xs'>Appointment</button>
   </div>
 </div>
 
