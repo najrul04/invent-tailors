@@ -46,7 +46,7 @@ const WhyUs = () => {
     <div className='text-center'>
    <p className="text-2xl font-bold text-orange-600">Core Features</p>
    <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">Why Choose Us</h2>
-   <p className="max-sm:text-sm pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
+   <p className="max-sm:text-sm pt-5 font-semibold">We have a set experts employees who function in a chain of command <br /> to ensure Timely Delivery with the best equipment on hand and 100% guarantee</p>
 </div>
     <div className='flex justify-center pt-5'>
                 {

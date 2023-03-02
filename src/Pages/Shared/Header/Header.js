@@ -32,11 +32,11 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button className="btn btn-outline bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 text-base-content text-white ">Appointment</button>
+  <button>Appointment</button>
   </div>
 </div>
 
-<marquee className="pt-5" width="100%" direction="left" height="30%">
+<marquee className="bg-slate-200 py-3 rounded-lg" width="100%" direction="left" height="30%">
 Hot summer Offer for 2023 is here now!
 </marquee>
 </>
