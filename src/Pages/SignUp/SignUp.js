@@ -68,7 +68,7 @@ const SignUp = () => {
                 {/* <button type="submit" >Login</button> */}
               </div>
             </form>
-            <p className="text-center pb-8">Already have and account? <Link className='text-orange-600 font-bold' to="/login">LogIn</Link></p>
+            <p className="text-center pb-8">Already have and account? <Link className='text-blue-500 font-bold' to="/login">LogIn</Link></p>
           </div>
         </div>
       </div>

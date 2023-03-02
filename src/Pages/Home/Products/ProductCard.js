@@ -17,7 +17,7 @@ const ProductCard = ({products}) => {
         <div className="card-body items-center text-center">
             <Ratings ratings = {ratings} />
           <h2 className="card-title">{title}</h2>
-          <p className="text-2xl text-orange-600">Price:${price}</p>
+          <p className="text-2xl text-blue-500">Price:${price}</p>
         </div>
       </div>
     </div>

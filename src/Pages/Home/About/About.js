@@ -4,7 +4,7 @@ import person from "../../../assets/images/about_us/person.png";
 const About = () => {
     return (
         <div className=' pt-10'>
-        <p className="text-2xl font-bold text-center text-orange-600 max-sm:block md:hidden xl:hidden">About Us</p>
+        <p className="text-2xl font-bold text-center text-blue-500 max-sm:block md:hidden xl:hidden">About Us</p>
             <div className="hero mb-20">
               
   <div className="hero-content flex-col lg:flex-row sm:p-0">
@@ -13,7 +13,7 @@ const About = () => {
     <img src={parts} className="absolute right-2 top-1/2 w-3/5 border-8 rounded-lg shadow-2xl" alt='pic' />
     </div>
     <div className='lg:w-1/2 md:w-4/5 sm:w-4/5 md:mt-10'>
-        <p className="text-2xl font-bold text-orange-600 max-sm:hidden md:block xl:block ">About Us</p>
+        <p className="text-2xl font-bold text-blue-500 max-sm:hidden md:block xl:block ">About Us</p>
       <h1 className="my-5 lg:text-5xl md:text-4xl font-bold max-sm:hidden md:block xl:block ">
         We are qualified <br /> 
         and experienced <br />

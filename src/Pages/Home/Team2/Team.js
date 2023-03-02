@@ -19,7 +19,7 @@ const Team = () => {
   return (
     <div>
     <div className='text-center pt-10'>
-               <p className="text-2xl font-bold text-orange-600 ">Team</p>
+               <p className="text-2xl font-bold text-blue-500 ">Team</p>
                <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">Our Team Members</h2>
                <p className="max-sm:text-sm pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
            </div>

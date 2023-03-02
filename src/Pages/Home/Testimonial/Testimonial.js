@@ -70,9 +70,9 @@ const Testimonial = () => {
     return (
         <div className='pt-10'>
         <div className='text-center mb-4'>
-        <p className="text-2xl font-bold text-orange-600">Testimonial</p>
+        <p className="text-2xl font-bold text-blue-500">Testimonial</p>
         <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">What Customer Says</h2>
-        <p className='max-sm:text-sm pt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nesciunt nemo <br /> sed dolores ullam necessitatibus id exercitationem repellendus veritatis iure?</p>
+        <p className='max-sm:text-sm pt-5 font-semibold'>We have been giving services successfully for 32 years.<br />Here is some of our most loyal customer reviews (More on the link below)</p>
     </div>
 
     <Swiper // install Swiper modules

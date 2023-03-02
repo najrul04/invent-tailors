@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <div>
             <div className='text-center mb-4 pt-10'>
-                <p className="text-2xl font-bold text-orange-600">Services</p>
+                <p className="text-2xl font-bold text-blue-500">Services</p>
                 <h2 className="lg:text-5xl md:text-4xl max-sm:text-3xl font-semibold pt-5">Our Service Area</h2>
                 <p className="text-lg max-sm:text-sm pt-5 font-semibold">Providing Services such as Suit, Shirt, Pant, Panjabi, Trousers and others for 31 years.
                 <br />
