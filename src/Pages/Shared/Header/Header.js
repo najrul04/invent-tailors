@@ -37,7 +37,7 @@ const Header = () => {
 </div>
 
 <marquee className="bg-slate-200 py-3 rounded-lg mt-2 text-xl font-bold" width="100%" direction="left" height="30%">
-This Website is still under development
+This Website is still under development now!
 </marquee>
 </>
     );
