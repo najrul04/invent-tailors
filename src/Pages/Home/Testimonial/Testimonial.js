@@ -1,9 +1,6 @@
 import React from 'react';
 import svg from '../../../assets/icons/quote.svg';
-import img4 from '../../../assets/images/banner/1.png';
-// import img2 from "../../../assets/images/team/2.PNG";
-import img3 from "../../../assets/images/team/3.jpg";
-import img1 from "../../../assets/images/testimonial/2.jpg";
+import img2 from "../../../assets/images/testimonial/Black_colour.jpg";
 import '../Products/Ratings.css';
 import './Testimonial.css';
 
@@ -21,48 +18,42 @@ const data = [
 
   {
 
-      avatar: img1,
-      name: 'Christian Bale',
-      title: 'CEO',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
-      "rating": "4.3",
+      avatar: img2,
+      name: 'Abul Hossain',
+      title: 'Businessman',
+      review: 'I was extremely impressed with the service I received. The staff were friendly, knowledgeable and efficient. They went above and beyond to ensure my needs were met. I highly recommend this service to anyone in need.',
+      "rating": "4.5",
 
   },
 
   {
 
-      avatar: img1,
-      name: 'Christian Bale',
-      title: 'CEO',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
-      "rating": "4.3",
+      avatar: img2,
+      name: 'Ashik',
+      title: 'Businessman',
+      review: 'I recently received excellent service from Invent Tailors and Fabrics. The staff was knowledgeable, friendly, and went above and beyond to ensure that I was satisfied with my purchase. I highly recommend this company for their quality products and outstanding customer service.',
+      "rating": "5.0",
 
   },
 
   {
 
-      avatar: img3,
-      name: 'Christian Bale',
-      title: 'CEO',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
-      "rating": "4.3",
+      avatar: img2,
+      name: 'Anik',
+      title: 'Businessman',
+      review: 'I recently ordered some customized clothing from this company and was blown away by the quality of the workmanship. The attention to detail was impressive, and the clothes fit me perfectly. I highly recommend this service to anyone looking for bespoke clothing options.',
+      "rating": "4.5",
 
   },
 
   {
 
-      avatar: img4,
-      name: 'Christian Bale',
+      avatar: img2,
+      name: 'Dorpon',
       title: 'CEO',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque aut dolorem officiis quae mollitia! Doloremque quibusdam assumenda repellat inventore sed voluptatibus autem est ut cumque nesciunt, quod ducimus recusandae2222222222222222222.',
-      "rating": "4.3",
+      review: "I had an excellent experience with this company's customized clothing service. They were able to bring my vision to life and create a stunning suit that fit me like a glove. The team was responsive, professional, and accommodating throughout the entire process. I would definitely use their services again.",
+      "rating": "4.3"
 
-  },
-
-  {
-
-      avatar: svg
-     
   }
 
 ]
@@ -134,8 +125,8 @@ const Testimonial = () => {
 <p>
     {review}
 </p>
-</div>\
-<div className="pt-0.1">
+</div>
+<div className="pt-2">
 <Ratings ratings = {ratings} />
 </div>
 </div>

@@ -26,19 +26,5 @@
     "title": "Manager",
     "experience": "5 Years",
     "img": "https://i.ibb.co/S05HdGx/5.png"
-  },
-  {
-    "_id": "5",
-    "name": "Sumon",
-    "title": "Developer",
-    "experience": "5 Years",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
-  },
-  {
-    "_id": "6",
-    "name": "Sumon",
-    "title": "Developer",
-    "experience": "5 Years",
-    "img": "https://i.ibb.co/QpZhx1L/1.png"
   }
 ]
